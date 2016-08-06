@@ -1,0 +1,14 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    height: 2000px;
+    background-color: #F07575; /* fallback color if gradients are not supported */
+    background-image: -webkit-linear-gradient(top, #7ACCBE, #03BAEC); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(top, #7ACCBE, #03BAEC); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(top, #7ACCBE, #03BAEC); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to bottom, #7ACCBE, #03BAEC); /* Standard syntax; must be last */
+}
